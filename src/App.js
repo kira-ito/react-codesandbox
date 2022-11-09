@@ -6,7 +6,6 @@ export const App = memo((props) => {
   console.log(`${text}ボタンがクリックされました`);
   return (
     <div className="App">
-      <h1>xxx</h1>
       <SButton>
         <button onClick={countState}>{text}</button>
       </SButton>
